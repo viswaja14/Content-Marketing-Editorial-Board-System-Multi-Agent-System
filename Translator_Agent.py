@@ -25,7 +25,7 @@ class TranslationAgent:
         self.agent_name = "Translation Agent"
         self.model_name = "gemini-3-flash-preview"
         # Initialize client once
-        self.client = genai.Client(api_key="AIzaSyCnZbX-IgsAL0Uz4wTy3eVKwNPljsi5I3A")
+        self.client = genai.Client(api_key="")
 
     def to_english(self, text: str, source_language: str) -> str:
         if source_language.lower() == "english":
