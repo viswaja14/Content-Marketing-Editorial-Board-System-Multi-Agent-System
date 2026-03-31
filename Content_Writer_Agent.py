@@ -34,7 +34,7 @@ class ContentWriterAgent:
         # Using Gemini 3.1 Pro here because it excels at long-form creative generation and complex reasoning
         self.model_name = "gemini-3.1-pro-preview"
         # Initialize the client once
-        self.client = genai.Client(api_key="AIzaSyCnZbX-IgsAL0Uz4wTy3eVKwNPljsi5I3A")
+        self.client = genai.Client(api_key="")
 
     def write(self, query: str) -> str:
         """
