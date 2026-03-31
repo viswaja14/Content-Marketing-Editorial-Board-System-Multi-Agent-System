@@ -37,7 +37,7 @@ class EditorAgent:
         # catching subtle grammatical errors, and restructuring long-form text.
         self.model_name = "gemini-3.1-pro-preview"
         # Initialize the client once
-        self.client = genai.Client(api_key="AIzaSyCnZbX-IgsAL0Uz4wTy3eVKwNPljsi5I3A")
+        self.client = genai.Client(api_key="")
 
     def review(self, content: str) -> dict:
         """
