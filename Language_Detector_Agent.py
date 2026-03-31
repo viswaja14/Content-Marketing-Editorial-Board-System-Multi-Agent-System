@@ -26,7 +26,7 @@ class LanguageDetectorAgent:
         # Initialize the Gemini client
         # gemini-3-flash-preview is ideal here: it's incredibly fast and perfect for classification
         self.model_name = "gemini-3-flash-preview"
-        self.client = genai.Client(api_key="AIzaSyCnZbX-IgsAL0Uz4wTy3eVKwNPljsi5I3A")
+        self.client = genai.Client(api_key="")
 
     def detect(self, text: str) -> str:
         """
