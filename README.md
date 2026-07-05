@@ -1,7 +1,7 @@
-# 📝 Content Marketing Editorial Board System
+# 📝 RACHANA-Responsive AI Content Handler for Automated News and Articles
 
 ## 📌 Overview
-The **Content Marketing Editorial Board System** is a multi-agent AI pipeline designed to simulate the collaborative process of a professional editorial board. It ensures that marketing content is:
+The **RACHANA** is a multi-agent AI pipeline designed to simulate the collaborative process of a professional editorial board. It ensures that marketing content is:
 - Engaging
 - Factually accurate
 - SEO optimized
